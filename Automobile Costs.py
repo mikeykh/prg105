@@ -28,7 +28,7 @@ def calculate_total_monthly_cost():
     insurance = float(input("Please enter your the amount of your insurance payment: "))
     gas = float(input("Please enter your monthly gas expense: "))
     oil = float(input("Please enter your monthly oil expense: "))
-    tire = float(input("Please enter your yearly expense for tires: "))
+    tire = float(input("Please enter your monthly expense for tires: "))
     maintenance = float(input("Please enter your monthly maintenance expense: "))
     total_monthly_cost = loan+insurance+gas+oil+tire+maintenance
     print("This is the total monthly cost: $", format(total_monthly_cost, ",.2f"), sep="")
